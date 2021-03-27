@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,user-scalable=no">
+    <meta charset="UTF-8">
+    <title>marcomentary</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <style>
+        .box {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .text {
+            font-family: 'Black Han Sans', sans-serif;
+            font-size: 24px;
+            line-height: 36px;
+            width: 580px;
+            word-break: keep-all;
+            word-wrap: break-word;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .title {
+            font-family: 'Black Han Sans', sans-serif;
+            position: absolute;
+        }
+
+        .one {
+            color: aqua;
+            top: 10vh;
+            left: 15vw;
+            font-size: 100px;
+            animation-name: move;
+            animation-duration: 3s;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease;
+        }
+
+        .two {
+            color: blueviolet;
+            top: 505px;
+            left: 301px;
+            font-size: 35px;
+        }
+
+        .three {
+            color: black;
+            top: 31vh;
+            left: 68vw;
+            font-size: 100px;
+        }
+
+        .four {
+            color: chartreuse;
+            top: 78vh;
+            left: 50vw;
+            font-size: 200px;
+        }
+
+        @keyframes move {
+            0% {
+                left: 15vw;
+                font-size: 100px;
+
+            }
+
+            50% {
+                left: 35vw;
+                font-size: 30px;
+                color: aliceblue
+            }
+
+            100% {
+                left: 15vw;
+                font-size: 100px;
+                color: aqua
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+
+            .text {
+                font: 14px;
+                line-height: 20px;
+                width: 280px;
+            }
+
+            .two {
+                color: green;
+                top: 505px;
+                left: 301px;
+                font-size: 35px;
+            }
+    </style>
+</head>
+
+<body>
+
+
+
+    <div class="box">
+        <div class="text"> 인사말<br>
+            디자인부터 국악까지, 패션부터 식품공학까지 여러 문화를 탐구하고 있다. 글쓰기와 디자인을 중심으로 세계관을 전개하고 있으며, 근래에는 개인의 창조적 태도와 재구성을 주제로 브랜드를 준비하고 있다.
+            <br><br>
+            Presentation<br>
+            De la conception a la musique coreenne, nous explorons diverses cultures, de la mode a l'ingenierie alimentaire. Nous developpons une vision du monde autour de l'ecriture et du design, et nous préparons nos marques recemment sur le theme de l'attitude creative et de la reconstruction individuelle.
+        </div>
+
+        <div class="title one">Reserve timed tickets</div>
+        <div class="title two">MARCO</div>
+        <div class="title three">MARCO</div>
+        <div class="title four">MARCO</div>
+        <div class="title five">MARCO</div>
+        <div class="title six">MARCO</div>
+        <div class="title seven">MARCO</div>
+        <div class="title eight">MARCO</div>
+
+    </div>
+</body></html>
